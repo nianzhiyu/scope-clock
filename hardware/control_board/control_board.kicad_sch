@@ -1,0 +1,522 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f49987d9-95e4-41ca-a5d5-6ca3a1977929")
+	(paper "A4")
+	(title_block
+		(title "SC-1 Scope Clock Control Board")
+		(date "2022-07-29")
+		(rev "1.0")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 111.76 82.55) (xy 193.04 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15de2a5b-d01e-49f3-b52f-8335718f7bf5")
+	)
+	(wire
+		(pts
+			(xy 111.76 102.87) (xy 193.04 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f4a02bb-669c-4435-9ae7-67ba32d47861")
+	)
+	(wire
+		(pts
+			(xy 111.76 90.17) (xy 193.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245d1001-3b40-4971-a01b-441748b33121")
+	)
+	(wire
+		(pts
+			(xy 111.76 85.09) (xy 193.04 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "308fac22-3e9c-44fb-9b30-1b23a4690298")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 132.08 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56a2054c-7ff2-4974-951f-800ac5aaeae8")
+	)
+	(wire
+		(pts
+			(xy 172.72 73.66) (xy 193.04 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fb1ecab-baa1-4c43-b79c-d22fdd02fc29")
+	)
+	(wire
+		(pts
+			(xy 111.76 97.79) (xy 193.04 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "616e78ca-f21e-41c3-b21f-494b6b25b588")
+	)
+	(wire
+		(pts
+			(xy 172.72 71.12) (xy 193.04 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81dbe010-dc1a-4ba2-b79a-f9074c54cf8d")
+	)
+	(wire
+		(pts
+			(xy 111.76 105.41) (xy 193.04 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92064b6b-06ec-4b10-a332-7a030b8b31da")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6d79a58-f11e-4ba0-9dac-377bc4c98820")
+	)
+	(wire
+		(pts
+			(xy 172.72 68.58) (xy 193.04 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3943185-ead3-42fc-aa5b-8176da6914cb")
+	)
+	(wire
+		(pts
+			(xy 111.76 95.25) (xy 193.04 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be409b48-801c-4592-8d6a-1e93153b5fbe")
+	)
+	(wire
+		(pts
+			(xy 111.76 92.71) (xy 193.04 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f94029d4-3ea5-489e-8870-e2bce396d83d")
+	)
+	(sheet
+		(at 132.08 64.77)
+		(size 40.64 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1dbe49e5-3219-43a4-8780-5ab566ea71f8")
+		(property "Sheetname" "Circle_Generator_1"
+			(at 132.08 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cir_gen_1.kicad_sch"
+			(at 132.08 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CSSN" output
+			(at 172.72 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "34367234-2a10-4251-89a8-3c8a92ffaa02")
+		)
+		(pin "CSS" output
+			(at 172.72 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ec31070e-c72a-41d3-a736-acef04420c38")
+		)
+		(pin "CSC" output
+			(at 172.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "62e7b17b-b8ec-4c2e-a9b7-238cb57d405c")
+		)
+		(pin "CLK_40D" input
+			(at 132.08 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "06af835f-db00-4bfc-ba9b-953a27bcadb5")
+		)
+		(instances
+			(project "control_board"
+				(path "/f49987d9-95e4-41ca-a5d5-6ca3a1977929"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 64.77)
+		(size 40.64 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "eddcad5c-f27b-4123-91b7-204bd3830680")
+		(property "Sheetname" "Circle_Generator_2"
+			(at 193.04 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cir_gen_2.kicad_sch"
+			(at 193.04 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "PWR_EN" input
+			(at 193.04 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "98c221d6-ce31-4b05-ae98-f4303c4af805")
+		)
+		(pin "CSC" input
+			(at 193.04 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4f33ed3c-558f-42ad-8602-085d5c41fcb3")
+		)
+		(pin "CSSN" input
+			(at 193.04 73.66 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d4584ab-e3ea-4414-a6a5-9da867fad753")
+		)
+		(pin "CSS" input
+			(at 193.04 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "17d5818d-97eb-4c5c-a157-e4aae6b54659")
+		)
+		(pin "DAC_CLK" input
+			(at 193.04 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "55cb1209-b503-4969-9ede-2055fabad86d")
+		)
+		(pin "CSEL1" input
+			(at 193.04 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "424a3357-8e7d-4c1e-833c-5c23668f9dcd")
+		)
+		(pin "CSEL0" input
+			(at 193.04 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3c917106-da17-46d3-a760-316de3a36c82")
+		)
+		(pin "DAC_DATA" input
+			(at 193.04 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "50461f66-3c65-4973-9fef-c21b26782a1c")
+		)
+		(pin "DAC_CS" input
+			(at 193.04 97.79 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8d3d891d-748e-4a9b-906a-c1c0bcc72a5a")
+		)
+		(pin "DAC_LOAD" input
+			(at 193.04 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78369318-8267-47b4-9c23-4dfdc4b8efd4")
+		)
+		(pin "ZOUT" input
+			(at 193.04 102.87 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f198f8fd-c18b-4507-befc-fa25fdaff9ce")
+		)
+		(pin "~{ZOUT}" input
+			(at 193.04 105.41 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0b96fb75-50c4-4e22-bbfa-86e5b14e1017")
+		)
+		(instances
+			(project "control_board"
+				(path "/f49987d9-95e4-41ca-a5d5-6ca3a1977929"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 64.77)
+		(size 40.64 49.53)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f6fa2940-c4e7-456e-9da3-3646a7d422a3")
+		(property "Sheetname" "MCU"
+			(at 71.12 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 71.12 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DAC_CS" output
+			(at 111.76 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "223b8f0e-974c-4ec5-8b7b-0f3d906698b9")
+		)
+		(pin "DAC_CLK" output
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d426c12-4278-4b2a-980f-39ab3f4a2719")
+		)
+		(pin "DAC_DATA" output
+			(at 111.76 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "044dada7-0a1f-448d-a03a-e4fb9006556c")
+		)
+		(pin "DAC_LOAD" output
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f2e32519-6699-4456-9301-bb4ffd6a060f")
+		)
+		(pin "CSEL1" output
+			(at 111.76 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "47459e69-405e-4392-9d63-11cd40452ee6")
+		)
+		(pin "CSEL0" output
+			(at 111.76 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "32292991-c3e1-475c-bcec-a3004fe69cc0")
+		)
+		(pin "PWR_EN" output
+			(at 111.76 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c56d4233-8f6a-455c-aca3-681181236002")
+		)
+		(pin "CLK_40D" output
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a38c4954-f81c-46e7-89ea-03b03ea0e2af")
+		)
+		(pin "~{ZOUT}" output
+			(at 111.76 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2e382a08-a073-4256-9270-76649900491c")
+		)
+		(pin "ZOUT" output
+			(at 111.76 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c0078028-46e8-49a1-8e12-67041d8d0481")
+		)
+		(instances
+			(project "control_board"
+				(path "/f49987d9-95e4-41ca-a5d5-6ca3a1977929"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

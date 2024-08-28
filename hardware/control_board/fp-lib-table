@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "sc_11")(type "KiCad")(uri "C:/Users/ydy/SynologyDrive/projects/scope_clock/sc-1/hw/crt_xyz_display/v05/sc_11.pretty")(options "")(descr ""))
+)

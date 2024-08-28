@@ -1,0 +1,239 @@
+(footprint "TO-92L_Inline_Wide_MPSA06"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "TO-92L leads in-line (large body variant of TO-92), also known as TO-226, wide, drill 0.75mm (see https://www.diodes.com/assets/Package-Files/TO92L.pdf and http://www.ti.com/lit/an/snoa059/snoa059.pdf)")
+	(tags "TO-92L Inline Wide transistor")
+	(property "Reference" "Q1"
+		(at 7.366 0 180)
+		(layer "F.SilkS")
+		(uuid "0a6cd32a-aa9d-481d-af9a-bd14f86e7e0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MPSA06"
+		(at 2.54 2.79 180)
+		(layer "F.Fab")
+		(uuid "4aeddb9e-9709-4b67-9ef5-07af360f9ff5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "03060344-d3e5-4564-8f15-bf6387d2776c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be607ca2-58b1-43d9-863f-8fb948bdfa88")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e77e97ae-da2c-4f27-8546-34b1d6f6e71e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0.6 1.7)
+		(end 4.45 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ab9ce77-dd06-4884-9d00-76e965baa269")
+	)
+	(fp_arc
+		(start 0.1836 -1.098807)
+		(mid 1.143021 -2.192817)
+		(end 2.54 -2.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30c03bf3-16a9-4221-8bfb-7b9792981fb0")
+	)
+	(fp_arc
+		(start 0.6 1.7)
+		(mid 0.389183 1.423933)
+		(end 0.217369 1.122045)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bcbc630a-b902-40a1-9504-14e35cc30a09")
+	)
+	(fp_arc
+		(start 2.54 -2.6)
+		(mid 3.936979 -2.192818)
+		(end 4.8964 -1.098807)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f81f00b9-dee3-4068-a004-ff8f98d5f162")
+	)
+	(fp_arc
+		(start 4.842383 1.112264)
+		(mid 4.666594 1.419753)
+		(end 4.45 1.7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08e7b0e7-a0ab-42d6-962c-ffe4c64258f9")
+	)
+	(fp_line
+		(start -1 -2.75)
+		(end -1 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "46b9c980-fe82-4393-ba44-1901323a3791")
+	)
+	(fp_line
+		(start -1 -2.75)
+		(end 6.1 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "59dc3aa3-9cec-42ef-9b33-ec85f3cab69f")
+	)
+	(fp_line
+		(start 6.1 1.85)
+		(end -1 1.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47ce0fc1-eddd-40b9-b5bd-dded514ebcf9")
+	)
+	(fp_line
+		(start 6.1 1.85)
+		(end 6.1 -2.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "881293d0-943d-4b73-bafd-899b8b85a915")
+	)
+	(fp_line
+		(start 0.65 1.6)
+		(end 4.4 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c552af3-6e3d-4f93-992b-3a67e3d7c8dd")
+	)
+	(fp_arc
+		(start 0.647182 1.602385)
+		(mid 0.290076 -1.043188)
+		(end 2.54 -2.48)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d382cad-6a02-4f8c-a84d-f81fb7ea3322")
+	)
+	(fp_arc
+		(start 2.54 -2.48)
+		(mid 4.787211 -1.049019)
+		(end 4.441103 1.592547)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d46a2930-1ed0-403d-9a8f-d2a3cfc292c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 0 180)
+		(layer "F.Fab")
+		(uuid "48dd9597-8555-4ad4-a4a9-1dbc2cf46e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 5.08 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "971c492b-ca09-43f9-a0f1-91d9152f01f8")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1c9bf37c-6cb2-43c7-a23b-c7d6b4fcfec8")
+	)
+	(pad "3" thru_hole rect
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "506f2731-0e66-412c-bc44-3c9e87c8b40c")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_TO_SOT_THT.3dshapes/TO-92L_Inline_Wide.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
